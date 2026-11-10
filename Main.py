@@ -90,9 +90,19 @@ def main():
     spill_scenario3()
 
     print("\nDu fikk", poeng, "poeng av 3 mulige.")
+
+    if poeng == 3:
+        print("Fantastisk! Du er en dyktig leder. Teamet fungerer optimalt og samarbeidet er godt.")
+
+    elif poeng >= 1:
+        print("Ikke dårlig, men det er rom for forbedring. Teamet jobber greit men kan bli bedre.")
+
+    else:
+        print("Teamet sliter... Prøv igjen og velg annerledes!")
+
     print("\n==================================================")
-    print("                  SPILLET ER SLUTT                  ")
-    print("====================================================")
+    print("              SPILLET ER SLUTT")
+    print("==================================================")
 
 
 if __name__ == "__main__":
